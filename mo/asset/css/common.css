@@ -1,10 +1,8 @@
 @charset "UTF-8";
 
-@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 100; src: local("Noto Sans Thin"), local("NotoSans-Thin"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.eot), url(../../asset/fonts/NotoSansKR-Thin-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.otf) format("opentype"); }
-@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 300; src: local("Noto Sans Light"), local("NotoSans-Light"), url(../../asset/fonts/NotoSansKR-Light-Hestia.eot), url(../../asset/fonts/NotoSansKR-Light-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Light-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Light-Hestia.otf) format("opentype"); }
+
 @font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 400; src: local("Noto Sans Regular"), local("NotoSans-Regular"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.eot), url(../../asset/fonts/NotoSansKR-Regular-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.otf) format("opentype"); }
-@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 500; src: local("Noto Sans Medium"), local("NotoSans-Medium"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.eot), url(../../asset/fonts/NotoSansKR-Medium-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.otf) format("opentype"); }
-@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 700; src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.eot), url(../../asset/fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.otf) format("opentype"); }
+
 html { color: #2b323f; background: #FFF; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 html *, html *::before, html *::after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
 
