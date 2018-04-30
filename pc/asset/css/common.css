@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 100; src: local("Noto Sans Thin"), local("NotoSans-Thin"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.eot), url(../../asset/fonts/NotoSansKR-Thin-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 300; src: local("Noto Sans Light"), local("NotoSans-Light"), url(../../asset/fonts/NotoSansKR-Light-Hestia.eot), url(../../asset/fonts/NotoSansKR-Light-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Light-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Light-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 400; src: local("Noto Sans Regular"), local("NotoSans-Regular"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.eot), url(../../asset/fonts/NotoSansKR-Regular-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 500; src: local("Noto Sans Medium"), local("NotoSans-Medium"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.eot), url(../../asset/fonts/NotoSansKR-Medium-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 700; src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.eot), url(../../asset/fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.otf) format("opentype"); }
+html { color: #2b323f; background: #FFF; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+html *, html *::before, html *::after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+address, caption, cite, code, dfn, em, th, var, strong { font-style: normal; }
+
+strong { font-weight: 600; }
+
+ol, ul, li { list-style: none; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
+q:before, q:after { content: ''; }
+
+abbr, acronym { border: 0; font-variant: normal; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+input, textarea, select { *font-size: 100%; }
+
+img { display: inline-block; vertical-align: top; }
+
+html { width: 100%; position: relative; word-break: keep-all; }
+
+body, input, textarea, select, button { font-size: 16px; font-weight: 400; color: #000; line-height: 1.55; padding: 0; margin: 0; font-family: "Noto Sans Korean", "Segoe UI", "Helvetica Neue", "Arial", sans-serif; border: none; outline: none; text-size-adjust: none; }
+
+img { max-width: 100%; }
+
+a { text-decoration: none; color: #868686; }
+a:hover { color: #ec407a; }
+
+/* etc */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+.center { text-align: center !important; }
+.left { text-align: left !important; }
+.right { text-align: right !important; }
+.block, .top-info-box .t-btn { display: block !important; }
+.inline { display: inline-block !important; }
+.fl { float: left; }
+.fr { float: right; }
+
+html { overflow-y: scroll; }
+html, body { height: 100%; }
+#wrap { width: 100%; min-width: 1080px; height: 100%; }
+.inner-wrap { width: 1080px; margin: 0 auto; position: relative; }
+
+#container { padding-bottom: 120px; }
+
+/* font-color */
+.point1 { color: #5abff8 !important; }
+.point2 { color: #ec407a !important; }
+.point3 { color: #3bde3b !important; }
+.point4 { color: #ec3095 !important; }
+
+
+/* btn */
+.btn-row { line-height: 1; text-align: center; }
+.btn-row::after { content: ''; display: block; clear: both; }
+
+/* error */
+.error-wrap { padding: 145px 0 25px; }
+.error-wrap .in { width: 550px; margin: 0 auto; }
+.error-wrap .point { color: #ec407a; }
+.error-wrap .t1 { line-height: 52px; font-size: 31.87px; letter-spacing: -2px; }
+.error-wrap .t1 span { padding-left: 75px; display: inline-block; background: url("../../asset/images/etc/error.gif") 0 0 no-repeat; }
+.error-wrap .t2 { font-size: 17.53px; text-align: left; line-height: 1.75; margin-top: 80px; }
+.error-wrap .t2 a.point { text-decoration: underline; }
+.error-wrap .confirm-detail { margin-top: 40px; }
+.error-wrap .confirm-detail li { height: 65px; display: table; width: 100%; border: solid #e4e4e4; border-width: 1px 0; margin-top: -1px; }
+.error-wrap .confirm-detail span, .error-wrap .confirm-detail p { display: table-cell; vertical-align: middle; }
+.error-wrap .confirm-detail span { width: 86px; color: #999; padding-left: 3px; }
+.error-wrap .btn-row { text-align: center; margin-top: 50px; }
+.error-wrap .btn-row button, .error-wrap .btn-row a { height: 33px; line-height: 33px; width: 97px; margin: 0 10px; display: inline-block; text-align: center; border-radius: 3px; }
+.error-wrap .btn-row .bt-ty1 { color: #000; border: 1px solid #e0e0e0; background: #fff; }
+.error-wrap .btn-row .bt-ty2 { color: #fff; border: 1px solid #ec3095; background: #ec3095; }

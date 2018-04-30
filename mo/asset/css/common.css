@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 100; src: local("Noto Sans Thin"), local("NotoSans-Thin"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.eot), url(../../asset/fonts/NotoSansKR-Thin-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Thin-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 300; src: local("Noto Sans Light"), local("NotoSans-Light"), url(../../asset/fonts/NotoSansKR-Light-Hestia.eot), url(../../asset/fonts/NotoSansKR-Light-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Light-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Light-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 400; src: local("Noto Sans Regular"), local("NotoSans-Regular"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.eot), url(../../asset/fonts/NotoSansKR-Regular-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Regular-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 500; src: local("Noto Sans Medium"), local("NotoSans-Medium"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.eot), url(../../asset/fonts/NotoSansKR-Medium-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Medium-Hestia.otf) format("opentype"); }
+@font-face { font-family: 'Noto Sans Korean'; font-style: normal; font-weight: 700; src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.eot), url(../../asset/fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format("embedded-opentype"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.woff) format("woff"), url(../../asset/fonts/NotoSansKR-Bold-Hestia.otf) format("opentype"); }
+html { color: #2b323f; background: #FFF; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+html *, html *::before, html *::after { -webkit-box-sizing: inherit; -moz-box-sizing: inherit; box-sizing: inherit; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+fieldset, img { border: 0; }
+
+address, caption, cite, code, dfn, em, th, var, strong { font-style: normal; }
+
+strong { font-weight: 600; }
+
+ol, ul, li { list-style: none; }
+
+caption, th { text-align: left; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+
+q:before, q:after { content: ''; }
+
+abbr, acronym { border: 0; font-variant: normal; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+
+input, textarea, select { *font-size: 100%; }
+
+img { display: inline-block; vertical-align: top; }
+
+html { width: 100%; position: relative; word-break: keep-all; text-size-adjust: none; }
+
+body, input, textarea, select, button { font-size: 13.28px; font-weight: 400; color: #000; line-height: 1.5; padding: 0; margin: 0; font-family: "Noto Sans Korean", "Segoe UI", "Helvetica Neue", "Arial", sans-serif, "Segoe UI", "Helvetica Neue", "Arial", sans-serif; border: none; outline: none; }
+
+img { max-width: 100%; }
+
+a { text-decoration: none; color: #868686; }
+a:hover { color: #eb4079; }
+
+/* etc */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+.center { text-align: center !important; }
+.left { text-align: left !important; }
+.right { text-align: right !important; }
+.block { display: block !important; }
+.inline { display: inline-block !important; }
+.fl { float: left; }
+.fr { float: right; }
+
+html, body { height: 100%; }
+
+#wrap { padding: 56px 0 0; height: 100%; overflow: hidden; overflow-y: scroll; background: #eee; }
+.inner-wrap { position: relative; }
+#container { min-height: 100%; position: relative; overflow: hidden; }
+#contents { margin-bottom: 7px; position: relative; }
+
+.point1 { color: #5abff8 !important; }
+.point2 { color: #eb4079 !important; }
+.point3 { color: #3bde3b !important; }
+.point4 { color: #ec3095 !important; }
+
+h1 { line-height: 1; text-align: center; }
+h1 a { display: inline-block; width: 180px; height: 25px; }
+h1 img { width: 100%; }
+
+.header-fixed { position: fixed; left: 0; width: 100%; top: 0; z-index: 200; border-bottom: 1px solid #e6e6e6; height: 56px; padding: 14px 0 0; background: #fff; }
+
+/* etc - 에러 */
+#container.etc-wrap { font-size: 13px; padding: 45px 35px; background: #fff; }
+#container.etc-wrap p { word-break: keep-all; color: #666; }
+#container.etc-wrap .txt1 { font-size: 23px; color: #000; margin-bottom: 35px; }
+#container.etc-wrap .txt1:before { content: '!'; display: inline-block; margin-right: 13px; text-align: center; color: #fff; width: 27px; height: 27px; line-height: 27px; background: #ec3095; }
+#container.etc-wrap .txt2 { margin-top: 15px; }
+#container.etc-wrap .txt3 { line-height: 1.25; color: #000; margin-bottom: 40px; padding-left: 48px; position: relative; background: url("../../asset/images/ico/warning.png") 0 5px no-repeat; background-size: 35px auto; }
+#container.etc-wrap .txt3 em { font-size: 23px; display: block; }
+#container.etc-wrap .txt2 { font-size: 13px; margin-top: 15px; }
+#container.etc-wrap .confirm-detail { margin-top: 15px; }
+#container.etc-wrap .confirm-detail li { height: 65px; display: table; width: 100%; border: solid #e4e4e4; border-width: 1px 0; margin-top: -1px; }
+#container.etc-wrap .confirm-detail span, #container.etc-wrap .confirm-detail p { display: table-cell; vertical-align: middle; }
+#container.etc-wrap .confirm-detail span { width: 86px; color: #999; padding-left: 3px; }
